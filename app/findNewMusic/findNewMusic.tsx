@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-// Define an interface for the track object
+// Define an interface for the track objectt
 interface Track {
     id: string;
     name: string;
