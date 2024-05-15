@@ -11,4 +11,4 @@ const Icon = () => {
         </Link>
     )
 }
-export { Icon };
+export default Icon;
