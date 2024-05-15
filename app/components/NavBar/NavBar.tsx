@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import CheckLoggedIn from './isLoggedIn';
-import Icon from './icon'
+import { Icon } from './icon'
 
 
 const NavBar = () => {
