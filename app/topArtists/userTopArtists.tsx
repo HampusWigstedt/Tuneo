@@ -67,7 +67,6 @@ const UserTopArtists = () => {
                 });
 
                 setTopArtists(response.data.items);
-                console.log(response.data.items);
             } catch (error) {
                 if (axios.isAxiosError(error)) {
                     console.error(error.response?.data);
