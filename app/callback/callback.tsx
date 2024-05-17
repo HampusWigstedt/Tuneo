@@ -32,7 +32,7 @@ const CallbackPage = () => {
         const authToken = Buffer.from(`${clientId}:${clientSecret}`, 'utf-8').toString('base64');
         const data = qs.stringify({
           code: code,
-          redirect_uri: 'https://musiccurator.netlify.app/callback',
+          redirect_uri: 'https://tuneo.netlify.app/callback',
           grant_type: 'authorization_code'
         });
 
