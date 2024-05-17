@@ -8,8 +8,8 @@ import Cookies from './components/alerts/cookies'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'MusicFinder',
-  description: 'Find new music and artists to listen to.',
+  title: 'Tuneo',
+  description: 'Your go to Music Curator',
 }
 
 export default function RootLayout({
