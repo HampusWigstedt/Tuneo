@@ -15,7 +15,6 @@ const authorizeSpotify = () => {
     });
 
     window.location.href = `https://accounts.spotify.com/authorize?${queryParams}`;
-    console.log('authorizeSpotify');
 };
 
 export { authorizeSpotify };
