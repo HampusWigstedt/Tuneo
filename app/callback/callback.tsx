@@ -44,7 +44,6 @@ const CallbackPage = () => {
           }
         })
           .then((response) => {
-            console.log("Token exchange successful:", response.data);
             const accessToken = response.data.access_token;
             // Store access token securely (e.g., in localStorage)
             Cookies.set('access_token', accessToken, { path: '/' });
