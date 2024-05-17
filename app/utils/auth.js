@@ -2,7 +2,7 @@
 import queryString from 'query-string';
 
 const CLIENT_ID = process.env.NEXT_PUBLIC_OWNER_SPOTIFY_CLIENT_ID;
-const REDIRECT_URI = 'https://tuneo.netlify.app/callback';
+const REDIRECT_URI = 'https://tuneo.site/callback';
 const SCOPES = ['user-read-private', 'user-read-email', 'user-top-read']; // Add any additional scopes you need
 
 const authorizeSpotify = () => {
