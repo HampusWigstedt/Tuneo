@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import CheckLoggedIn from './isLoggedIn';
-import Icon from './icon'
+
 
 
 const NavBar = () => {
@@ -12,7 +12,11 @@ const NavBar = () => {
         <nav>
             <div className="navbar bg-primary text-primary-content">
                 <div className="flex-1 gap-3">
-                    <Icon />
+                    <Link href="/">
+                        <button className="">
+                            <img src="/favicon.ico" alt="Icon" />
+                        </button>
+                    </Link>
                     <div className="hidden md:flex gap-2">
                         <Link href="/topArtists" className="btn btn-primary text-xl hover:btn-neutral border-black border-2">Top Artists</Link>
                     </div>
