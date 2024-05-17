@@ -71,7 +71,6 @@ const UserTopArtists = () => {
                 if (axios.isAxiosError(error)) {
                     console.error(error.response?.data);
                 } else {
-                    console.log('error', error);
                     console.error(error);
                 }
             } finally {
