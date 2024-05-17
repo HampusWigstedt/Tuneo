@@ -95,7 +95,7 @@ const UserTopArtists = () => {
 
     return (
 
-        <div className="p-4 ">
+        <div className="p-4">
             {isLoggedIn ? (
                 <div>
                     <h1 className="text-center text-4xl font-bold underline">Your Top 40 Artists</h1>
@@ -104,10 +104,10 @@ const UserTopArtists = () => {
                         <button className={`btn ${timeRange === 'medium_term' ? 'btn-active' : 'btn-neutral'}`} onClick={() => changeTimeRange('medium_term')}>Last 6 Months</button>
                         <button className={`btn ${timeRange === 'long_term' ? 'btn-active' : 'btn-neutral'}`} onClick={() => changeTimeRange('long_term')}>This Year</button>
                     </div>
-                    <div className="grid grid-cols-4 gap-9 gap-y-10 mx-8">
+                    <div className="grid grid-cols-4 gap-9 py-6 mx-8">
                         {topArtists.map((artist, index) => (
                             <div key={artist.id} className="card w-96 bg-neutral">
-                                <figure>
+                                <figure className='pt-4'>
                                     <img className="object-cover p-2 rounded-3xl w-[320px] h-[320px]" src={artist.images[1].url} alt={artist.name} />
                                 </figure>
                                 <div className="card-body">
