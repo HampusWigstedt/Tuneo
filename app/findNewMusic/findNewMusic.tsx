@@ -38,7 +38,6 @@ const Search = () => {
     const handleTrackSelection = async (track: Track) => {
         setIsLoading(true);
         setSelectedTrack(track);
-        console.log('Selected track:', track);
 
         const accessToken = Cookies.get('access_token');
 
