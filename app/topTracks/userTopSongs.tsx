@@ -116,10 +116,10 @@ const UserTopSongs = () => {
                         <button className={`btn ${timeRange === 'medium_term' ? 'btn-active' : 'btn-neutral'}`} onClick={() => changeTimeRange('medium_term')}>Last 6 Months</button>
                         <button className={`btn ${timeRange === 'long_term' ? 'btn-active' : 'btn-neutral'}`} onClick={() => changeTimeRange('long_term')}>This Year</button>
                     </div>
-                    <div className="grid grid-cols-4 gap-9 gap-y-10">
+                    <div className="grid grid-cols-4 gap-9 py-6">
                         {topSongs.map((Song, index) => (
                             <div key={Song.id} className="card w-96 bg-neutral">
-                                <figure>
+                                <figure className='pt-4'>
                                     <img className="object-cover p-2 rounded-3xl w-[320px] h-[320px]" src={Song.album.images[1].url} alt={Song.name} />
                                 </figure>
                                 <div className="card-body">
