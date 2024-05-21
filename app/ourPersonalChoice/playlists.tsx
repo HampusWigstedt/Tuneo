@@ -44,10 +44,10 @@ const Playlists = () => {
 
                 <div className="col-span-1 card card-side bg-base-300 shadow-xl mt-8 mr-4">
                     <div className="card-body">
-                        <h2 className="card-title underline">TinGelTanGel</h2>
-                        <p>Sad songs</p>
+                        <h2 className="card-title underline">Songs that deserve more</h2>
+                        <p>Unknown songs</p>
                         <div className="justify-end">
-                            <iframe className='rounded-2xl shadow-lg border-0 mt-6' src={`https://open.spotify.com/embed/playlist/7ERv9nD9fePdyL15WjWs87`} width="870" height="400" allow="encrypted-media"></iframe>
+                            <iframe className='rounded-2xl shadow-lg border-0 mt-6' src={`https://open.spotify.com/embed/playlist/4H9KEfRiT4qUWmzFIDT8Sn`} width="870" height="400" allow="encrypted-media"></iframe>
                         </div>
                     </div>
                 </div>
