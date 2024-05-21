@@ -147,14 +147,16 @@ const Search = () => {
                     <div className='text-center text-4xl font-bold p-6'>
                         <h1 className='p-4'>Search for a song</h1>
                         <form onSubmit={handleSearch}>
+                            <div className="tooltip tooltip-open tooltip-left" data-tip="First search for a Track or Artist here">
                             <input type="text" name="query" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+                            </div>
                             <button type="submit" className="p-4">Search</button>
                         </form>
                     </div>
                     <div className="dropdown mt-2 text-center w-full top-full text-4xl font-bold p-6 flex justify-center">
                         <div className="relative">
                             {searchResults.length > 0 && (
-                                <div className="tooltip tooltip-open" data-tip="Select a track here">
+                                <div className="tooltip tooltip-open" data-tip="Now klick here to select a song">
                                     <div tabIndex={0} role="button" className="btn btn-lg m-1 w-96">Select a track</div>
                                 </div>
                             )}
