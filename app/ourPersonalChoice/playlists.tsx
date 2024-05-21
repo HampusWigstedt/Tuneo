@@ -34,7 +34,7 @@ const Playlists = () => {
             <div className="grid grid-cols-2 gap-4">
                 <div className="col-span-1 card card-side bg-base-300 shadow-xl mt-8 ml-4">
                     <div className="card-body">
-                        <h2 className="card-title underline">That's a Rap</h2>
+                        <h2 className="card-title underline">That&#39;s a Rap</h2>
                         <p>Our best Rap picks</p>
                         <div className="justify-end">
                             <iframe className='rounded-2xl shadow-lg border-0 mt-6' src={`https://open.spotify.com/embed/playlist/1nFJ2YVgMqz4ByJTECQSb7`} width="870" height="400" allow="encrypted-media"></iframe>
