@@ -1,5 +1,5 @@
-'use client';
-import React, { use, useEffect, useState } from 'react';
+'use client'
+import React from 'react'
 
 
 const BlogMain = () => {
@@ -13,8 +13,8 @@ const BlogMain = () => {
                 <div className='py-4'>
 
                     <div className="hero min-h-[150px] bg-base-200 mb-8 rounded-lg">
-                        <div className="hero-content flex-col lg:flex-row">
-                            <div className="flex items-center space-x-4 justify-center my-6">
+                        <div className="hero-content flex-col md:flex-row">
+                            <div className="flex flex-col md:flex-row items-center space-x-4 justify-center my-6">
                                 <img src="https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F5e7bf410789d01a90983b2641b88e5bd.1000x1000x1.png" alt="Blog Title" className="max-w-72 rounded-lg shadow-2xl" />
                                 <div>
                                     <h1 className="text-2xl font-bold">Billie Eilish - HIT ME HARD AND SOFT</h1>
@@ -39,8 +39,8 @@ const BlogMain = () => {
                 </div>
 
                 <div className="hero min-h-[150px] bg-base-200 mb-8 rounded-lg">
-                    <div className="hero-content flex-col lg:flex-row">
-                        <div className="flex items-center space-x-4 justify-center my-6">
+                    <div className="hero-content flex-col md:flex-row">
+                        <div className="flex flex-col md:flex-row items-center space-x-4 justify-center my-6">
                             <img src="https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2Fe12443c54afc4273bc29ca42b970a279.1000x1000x1.jpg" alt="Blog Title" className="max-w-72 rounded-lg shadow-2xl" />
                             <div>
                                 <h1 className="text-2xl font-bold">Chance Is Back</h1>
