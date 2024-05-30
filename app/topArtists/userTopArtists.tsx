@@ -81,11 +81,9 @@ const UserTopArtists = () => {
                 // Handle errors
                 if (axios.isAxiosError(error)) {
                     Cookies.remove('access_token')
-                    window.location.href = '/'
                     console.error(error.response?.data)
                 } else {
                     Cookies.remove('access_token')
-                    window.location.href = '/'
                     console.error(error)
                 }
             } finally {
