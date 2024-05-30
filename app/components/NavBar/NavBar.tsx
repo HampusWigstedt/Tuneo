@@ -2,7 +2,6 @@
 import React from 'react'
 import Link from 'next/link'
 import CheckLoggedIn from './isLoggedIn'
-import Icon from './icon'
 import { useState } from 'react'
 
 const NavBar = () => {
@@ -16,7 +15,11 @@ const NavBar = () => {
         <nav>
             <div className="navbar bg-primary text-primary-content">
                 <div className="flex-1 gap-3">
-                    <Icon />
+                            <Link href="/">
+            <button className="w-10 h-10 md:w-12 md:h-12 lg:w-12 lg:h-12">
+                <img className="w-full h-full" src="/favicon.ico" alt="Icon" />
+            </button>
+        </Link>
                     <div className="relative md:hidden">
                         <button onClick={toggleMenu} className="btn btn-primary text-lg md:text-xl lg:text-2xl hover:btn-neutral border-black border-2 dropdown-toggle">Menu</button>
                         {isOpen && (
