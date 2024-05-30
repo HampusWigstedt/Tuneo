@@ -25,7 +25,7 @@ const CallbackPage = () => {
         // Prepare the body parameters
         const data = qs.stringify({
           code: code,
-          redirect_uri: 'http://localhost:3000/callback',
+          redirect_uri: 'https://tuneo.site/callback',
           grant_type: 'authorization_code'
         })
 
