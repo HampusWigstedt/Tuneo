@@ -148,7 +148,14 @@ const Search = () => {
         <div className="p-4 ">
             {!isLoggedIn ? (
                 <div>
-                    <div className='text-center p-96'><h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Please <span className="text-green-600 dark:text-green-500">Log In</span></h1><p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">You need to log in to use this feature</p></div>
+                    <div className='text-center p-4 sm:p-24 md:p-48 lg:p-96'>
+                        <h1 className="mb-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">
+                            Please <span className="text-green-600 dark:text-green-500">Log In</span>
+                        </h1>
+                        <p className="text-sm sm:text-md md:text-lg lg:text-xl dark:text-gray-400">
+                            You need to log in to use this feature
+                        </p>
+                    </div>
                 </div>
             ) : (
                 <div>
