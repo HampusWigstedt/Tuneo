@@ -15,6 +15,11 @@ const NavBar = () => {
         <nav className="bg-base-300 shadow-lg p-6 my-2 rounded-full relative z-20 max-w-8xl mt-4 mx-auto">
             <div className="flex justify-between items-center">
                 <div className="flex items-center gap-4">
+                                                <Link href="/">
+            <button className="w-10 h-10 md:w-12 md:h-12 lg:w-12 lg:h-12">
+                <img className="w-full h-full" src="/favicon.ico" alt="Icon" />
+            </button>
+        </Link>
                     <div className="hidden md:flex gap-4">
                         <Link href="/topArtists">
                             <span className="btn bg-violet-900 text-lg md:text-xl hover:btn-neutral">Top Artists</span>
