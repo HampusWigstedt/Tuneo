@@ -15,7 +15,6 @@ const NavBar = () => {
         <nav className="bg-base-300 shadow-lg p-6 my-2 rounded-full relative z-20 max-w-8xl mt-4 mx-auto">
             <div className="flex justify-between items-center">
                 <div className="flex items-center gap-4">
-                    <Icon />
                     <div className="hidden md:flex gap-4">
                         <Link href="/topArtists">
                             <span className="btn bg-violet-900 text-lg md:text-xl hover:btn-neutral">Top Artists</span>
