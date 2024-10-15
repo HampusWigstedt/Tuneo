@@ -188,18 +188,18 @@ const Search = () => {
                         {/* Selected track display */}
                         <div className="hero min-h-[150px] bg-base-200 p-2 md:p-10 mb-8 rounded-lg overflow-auto">
 
-                                {selectedTrack && (
-                                    <div className="flex flex-col md:flex-row items-center space-x-4 justify-center my-6">
-                                        <img src={selectedTrack.image?.url} className="max-w-xs rounded-lg shadow-2xl" alt={selectedTrack.name} />
-                                        <div>
-                                            <h2 className="md:text-2xl text-lg font-bold underline text-emerald-900">You Selected</h2>
-                                            <h1 className="md:text-2xl text-lg font-bold">{selectedTrack.name}</h1>
-                                            <p className="py-2">{selectedTrack.artists.map(artist => artist.name).join(', ')}</p>
-                                            <a href={selectedTrack.external_urls?.spotify} target="_blank" rel="noopener noreferrer" className="btn btn-primary">View on Spotify</a>
-                                            <iframe className='rounded-2xl shadow-lg border-0 mt-6' src={`https://open.spotify.com/embed/track/${selectedTrack.id}`} width="300" height="80" allow="encrypted-media"></iframe>
-                                        </div>
+                            {selectedTrack && (
+                                <div className="flex flex-col md:flex-row items-center space-x-4 justify-center my-6">
+                                    <img src={selectedTrack.image?.url} className="max-w-xs rounded-lg shadow-2xl" alt={selectedTrack.name} />
+                                    <div>
+                                        <h2 className="md:text-2xl text-lg font-bold underline text-violet-600">You Selected</h2>
+                                        <h1 className="md:text-2xl text-lg font-bold">{selectedTrack.name}</h1>
+                                        <p className="py-2">{selectedTrack.artists.map(artist => artist.name).join(', ')}</p>
+                                        <a href={selectedTrack.external_urls?.spotify} target="_blank" rel="noopener noreferrer" className="btn text-white border-none bg-violet-900 btn-primary">View on Spotify</a>
+                                        <iframe className='rounded-2xl shadow-lg border-0 mt-6' src={`https://open.spotify.com/embed/track/${selectedTrack.id}`} width="300" height="80" allow="encrypted-media"></iframe>
                                     </div>
-                                )}
+                                </div>
+                            )}
                         </div>
 
                         <div className='flex justify-center items-center'>
