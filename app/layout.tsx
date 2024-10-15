@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Tuneo',
-  description: 'Your go to Music Curator',
+  description: 'Find new music and artists to listen to.',
 }
 
 export default function RootLayout({
@@ -18,17 +18,19 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-<html lang="en" data-theme="forest">
-    <body className={inter.className}>
-        <div className="flex flex-col justify-between min-h-screen">
+    <html lang="en" data-theme="forest">
+      <body className={inter.className}>
+        <div className="relative min-h-screen">
+          <div className="flex flex-col justify-between min-h-screen relative z-10">
             <NavBar />
             <Cookies />
             <div className="flex-grow">
-                {children}
+              {children}
             </div>
             <Footer />
+          </div>
         </div>
-    </body>
-</html>
+      </body>
+    </html>
   )
 }
