@@ -65,7 +65,7 @@ const BlogMain = () => {
                 <div className="hero min-h-[150px] bg-base-200 mb-8 rounded-lg">
                     <div className="hero-content flex-col md:flex-row">
                         <div className="flex flex-col md:flex-row items-center space-x-4 justify-center my-6">
-                            <img src="https://t2.genius.com/unsafe/272x272/https%3A%2F%2Fimages.genius.com%2Fc5abdf5b483cbd13db01035181caa69c.1000x1000x1.png" alt="Blog Title" className="max-w-72 rounded-lg shadow-2xl" />
+                            <img src="https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F4b247b471b2f437d3e3b9f59ac19aaa9.1000x1000x1.jpg" alt="Blog Title" className="max-w-72 rounded-lg shadow-2xl" />
                             <div>
                                 <h1 className="text-2xl font-bold">Kishi Bashi - I Am the Antichrist to You</h1>
                                 <p className="py-2">Find of the Month - Kishi Bashi - I Am the Antichrist to You</p>
@@ -78,7 +78,7 @@ const BlogMain = () => {
                 <input type="checkbox" id="my_modal_3" className="modal-toggle" />
                 <div className="modal" role="dialog">
                     <div className="modal-box">
-                        <img src="https://t2.genius.com/unsafe/272x272/https%3A%2F%2Fimages.genius.com%2Fc5abdf5b483cbd13db01035181caa69c.1000x1000x1.png" alt="Description of the image" className="w-full h-auto rounded-xl" />
+                        <img src="https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F4b247b471b2f437d3e3b9f59ac19aaa9.1000x1000x1.jpg" alt="Description of the image" className="w-full h-auto rounded-xl" />
                         <h3 className="text-lg font-bold underline mt-4">Kishi Bashi - I Am the Antichrist to You</h3>
                         <p className="py-4">This is a new find for us at Tuneo. The song was featured in a episode of Rick & Morty according to google, which could be the reason for it's popularity. But we have not heard much about this song before. Atleast not enough. If your ears have not been exposed to this song yet, please do yourself a favor and listen.</p>
                         <p className="btn text-white border-none bg-violet-900 btn-primary">Rating - 8.5/10</p>
