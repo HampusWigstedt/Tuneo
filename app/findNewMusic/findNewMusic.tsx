@@ -67,7 +67,6 @@ const Search = () => {
             setRecommendations(recommendations)
 
         } catch (error) {
-            Cookies.remove('access_token')
             window.location.href = '/'
             console.error('Error getting recommendations:', error)
         } finally {
