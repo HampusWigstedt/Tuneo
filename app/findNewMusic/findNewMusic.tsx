@@ -67,7 +67,6 @@ const Search = () => {
             setRecommendations(recommendations)
 
         } catch (error) {
-            window.location.href = '/'
             console.error('Error getting recommendations:', error)
         } finally {
             setIsLoading(false) // Set loading to false after the API call
